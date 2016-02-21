@@ -130,7 +130,7 @@ $(window).load(function(){
         
         if(gameStarted){
             
-            //drawLine();
+            drawLine();
             
             //draw player 
             ctx.beginPath();
