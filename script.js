@@ -48,7 +48,7 @@ $(window).load(function(){
              
     }
     
-    $("#canvas").mousedown(function(){   
+    $("#canvas").on('mousedown touchstart',function(){   
             
         if(gameStarted){
             
@@ -58,7 +58,7 @@ $(window).load(function(){
             
     });
     
-    $("#canvas").mouseup(function(){   
+    $("#canvas").on('mouseup touchend', function(){   
             
         if(gameStarted){
             
